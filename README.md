@@ -11,7 +11,7 @@ Goal - Understanding C and what happens at the memory/register level. BE COMFORT
     5. the stack vs heap
     6. undefined behavior
 
-  * Computer Architecture Basics (Reading Suggestion: But How Do It Know; J. Clark Scott [https://archive.org/details/jclarkscottbuthowdoitknowthebasicprinciplesofcomputersforeveryonejohnc.scott2009])
+  * Computer Architecture Basics Reading Suggestion: [But How Do It Know; J. Clark Scott](https://archive.org/details/jclarkscottbuthowdoitknowthebasicprinciplesofcomputersforeveryonejohnc.scott2009)
     1. How a CPU executes instructions
     2. what registers/memory-mapped I/O are
     3. binary/hex/two's complement
@@ -56,9 +56,8 @@ PWM-driven servo or motor controller
 I2C sensor reader (temperature/accelerometer) logging over UART
 
 # embedded-phase3
-Phase 3 (Months 6–9): RTOS, protocols, and debugging discipline
-
-Goal: This is where you start looking like a hire-able engineer instead of a hobbyist.
+## Phase 3 (Months 6–9): RTOS, protocols, and debugging discipline
+### Goal: This is where you start looking like a hire-able engineer instead of a hobbyist.
 
  * RTOS concepts —
     1. tasks,
@@ -86,20 +85,20 @@ Goal: This is where you start looking like a hire-able engineer instead of a hob
 Deliverable: A multi-task FreeRTOS project — e.g., a sensor-logging system with one task sampling I2C sensors, one task handling UART command input, one task blinking a heartbeat LED, coordinated with queues/semaphores. This is a strong portfolio centerpiece.
 
 # embedded-phase4
-Phase 4 (Months 9–12): Specialization, polish, and the job search
+## Phase 4 (Months 9–12): Specialization, polish, and the job search
+### Goal: Convert 9 months of skill-building into interviews and offers.
 
-Goal: Convert 9 months of skill-building into interviews and offers.
+* Pick a specialization lane based on job postings you're seeing locally/remotely: automotive (CAN, AUTOSAR-adjacent), IoT (low-power, wireless — BLE/LoRa), industrial/robotics, or medical devices. Don't specialize before month 9 — you don't yet know what you'll enjoy.
+* One capstone project that's portfolio-centerpiece quality: something with a custom PCB (KiCad — you mentioned this already), a real use case, and a README that documents the design decisions, not just "how to run it." This is what recruiters and hiring managers actually look at.
 
-Pick a specialization lane based on job postings you're seeing locally/remotely: automotive (CAN, AUTOSAR-adjacent), IoT (low-power, wireless — BLE/LoRa), industrial/robotics, or medical devices. Don't specialize before month 9 — you don't yet know what you'll enjoy.
-One capstone project that's portfolio-centerpiece quality: something with a custom PCB (KiCad — you mentioned this already), a real use case, and a README that documents the design decisions, not just "how to run it." This is what recruiters and hiring managers actually look at.
-Interview prep:
-C fundamentals whiteboard questions (pointers, memory, bit manipulation) — these come up constantly
-Embedded-specific questions: volatile keyword, interrupt latency, memory-mapped I/O, RTOS priority inversion, stack overflow debugging
-Practice explaining your projects out loud — this is often weaker than the technical skill itself
-Resume + GitHub polish — pin your best 3 repos, each with a clear README, photos/videos of hardware running, and a one-paragraph "what this demonstrates."
-Start applying at month 10, not month 12 — embedded hiring cycles are slow (weeks between stages), so you want applications in the pipeline before you're "done."
-A few things that matter more than they seem
-Your Flask/PostgreSQL background is an asset, not irrelevant — a lot of embedded roles increasingly want someone who can also write the backend/cloud side (IoT device fleets talking to servers). Don't hide that skill set in interviews.
-Buy real hardware early. Simulators (like QEMU or online STM32 sims) are fine for concepts, but nothing replaces the experience of debugging a board that just... doesn't respond, and figuring out why.
-Join a community — r/embedded, EEVblog forums, or a local makerspace. Embedded debugging often needs a second pair of eyes, and this also builds the network that gets you referred into roles.
-Track everything in one GitHub org/profile from day one, even messy early code — hiring managers like seeing growth over time, not just a polished final product with no history.
+** Interview prep: **
+* C fundamentals whiteboard questions (pointers, memory, bit manipulation) — these come up constantly
+* Embedded-specific questions: volatile keyword, interrupt latency, memory-mapped I/O, RTOS priority inversion, stack overflow debugging
+* Practice explaining your projects out loud — this is often weaker than the technical skill itself
+* Resume + GitHub polish — pin your best 3 repos, each with a clear README, photos/videos of hardware running, and a one-paragraph "what this demonstrates."
+* Start applying at month 10, not month 12 — embedded hiring cycles are slow (weeks between stages), so you want applications in the pipeline before you're "done."
+** A few things that matter more than they seem **
+* Your Flask/PostgreSQL background is an asset, not irrelevant — a lot of embedded roles increasingly want someone who can also write the backend/cloud side (IoT device fleets talking to servers). Don't hide that skill set in interviews.
+* Buy real hardware early. Simulators (like QEMU or online STM32 sims) are fine for concepts, but nothing replaces the experience of debugging a board that just... doesn't respond, and figuring out why.
+* Join a community — r/embedded, EEVblog forums, or a local makerspace. Embedded debugging often needs a second pair of eyes, and this also builds the network that gets you referred into roles.
+* Track everything in one GitHub org/profile from day one, even messy early code — hiring managers like seeing growth over time, not just a polished final product with no history.
