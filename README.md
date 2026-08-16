@@ -3,7 +3,7 @@
 ### Goal: Think in C, understand what's happening at the memory/register level, and be comfortable in a terminal.
 
 Goal - Understanding C and what happens at the memory/register level. BE COMFORTABLE AT IN THE TERMINAL
-  * C language - focus on the following ** Reading suggestion: ** [C Programming: A Modern Approach; K. N. King](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by)
+  * C language - focus on the following **Reading suggestion:** [C Programming: A Modern Approach; K. N. King](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by)
     1. pointers
     2. structs
     3. bitwise ops
@@ -11,7 +11,7 @@ Goal - Understanding C and what happens at the memory/register level. BE COMFORT
     5. the stack vs heap
     6. undefined behavior
 
-  * Computer Architecture Basics ** Reading Suggestion: ** [But How Do It Know; J. Clark Scott](https://archive.org/details/jclarkscottbuthowdoitknowthebasicprinciplesofcomputersforeveryonejohnc.scott2009)
+  * Computer Architecture Basics **Reading Suggestion:** [But How Do It Know; J. Clark Scott](https://archive.org/details/jclarkscottbuthowdoitknowthebasicprinciplesofcomputersforeveryonejohnc.scott2009)
     1. How a CPU executes instructions
     2. what registers/memory-mapped I/O are
     3. binary/hex/two's complement
@@ -91,7 +91,7 @@ Deliverable: A multi-task FreeRTOS project — e.g., a sensor-logging system wit
 * Pick a specialization lane based on job postings you're seeing locally/remotely: automotive (CAN, AUTOSAR-adjacent), IoT (low-power, wireless — BLE/LoRa), industrial/robotics, or medical devices. Don't specialize before month 9 — you don't yet know what you'll enjoy.
 * One capstone project that's portfolio-centerpiece quality: something with a custom PCB (KiCad — you mentioned this already), a real use case, and a README that documents the design decisions, not just "how to run it." This is what recruiters and hiring managers actually look at.
 
-** Interview prep: **
+**Interview prep:**
 * C fundamentals whiteboard questions (pointers, memory, bit manipulation) — these come up constantly
 * Embedded-specific questions: volatile keyword, interrupt latency, memory-mapped I/O, RTOS priority inversion, stack overflow debugging
 * Practice explaining your projects out loud — this is often weaker than the technical skill itself
