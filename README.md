@@ -3,7 +3,7 @@
 ### Goal: Think in C, understand what's happening at the memory/register level, and be comfortable in a terminal.
 
 Goal - Understanding C and what happens at the memory/register level. BE COMFORTABLE AT IN THE TERMINAL
-  * C language - focus on the following (Reading suggestion: C Programming: A Modern Approach; K. N. King [https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by])
+  * C language - focus on the following ** Reading suggestion: ** [C Programming: A Modern Approach; K. N. King](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by)
     1. pointers
     2. structs
     3. bitwise ops
@@ -11,7 +11,7 @@ Goal - Understanding C and what happens at the memory/register level. BE COMFORT
     5. the stack vs heap
     6. undefined behavior
 
-  * Computer Architecture Basics Reading Suggestion: [But How Do It Know; J. Clark Scott](https://archive.org/details/jclarkscottbuthowdoitknowthebasicprinciplesofcomputersforeveryonejohnc.scott2009)
+  * Computer Architecture Basics ** Reading Suggestion: ** [But How Do It Know; J. Clark Scott](https://archive.org/details/jclarkscottbuthowdoitknowthebasicprinciplesofcomputersforeveryonejohnc.scott2009)
     1. How a CPU executes instructions
     2. what registers/memory-mapped I/O are
     3. binary/hex/two's complement
